@@ -62,5 +62,52 @@
     <font color ="black" face = "Candara" size = "4"><p align = "left">• Git ve Versiyon Kontrol Sistemleri(BTK AKADEMİ)</p></font>
     <font color ="black" face = "Candara" size = "4"><p align = "left">• edX Verified Certificate for Generative AI for Games Development(edX)</p></font>
     <font color ="black" face = "Candara" size = "4"><p align = "left">• Vertex AI, Büyük Dil Modelleri (LLM) ve Üretken Yapay Zeka uygulama geliştirme dahil olmak üzere en yeni Google AI teknolojileriyle ile yenilikçi yapay zeka çözümleri tasarlama, geliştirme(GOOGLE Build with AI:Türkiye)</p></font>
+    
+    <font color = "black" face = "Candara" size = "5"><b><p align = "center">CV DEĞERLENDİRME KISMI</p></b></font>
+    <hr width = 1000 size = 3 color = "black">
+
+<form> 
+<label for ="adsoy">Değerlendirecek kişinin Adı ve Soyadı:</label><br>
+<input type ="text" id="Ad_Soyad" name="Ad_Soyad" size = 35>
+</form>
+
+<form> 
+<label for ="Sifre">Değerlendirecek kişinin Parolası</label><br>
+<input type ="text" id="Sfire" name="Sifre" size = 35>
+</form>
+
+<form>
+<label for ="puanlama">Siteye Genel Puanlamanız</label<br><br>
+<select id="Hobi" name="Hobi" size="1">
+<option value="Hobi_Yok"selected> Puan seçiniz</option>
+<option value="TamPuan">Tam Puan</option>
+<option value="YarimPuan">Yarım Puan</option> 
+<option value="SifirPuan"> Sıfır Puan</option>
+</select><br><br>
+
+<label for ="checkboxpuanlama">Siteyi yaptığım için kendime tebrik amaçlı bölüm. Atlayabilirsiniz.</label><br>
+<input type="checkbox" id="tampuan" name="tampuan" value="tampuan">
+<label for="tampuan">Tebrik</label><br>
+<input type="checkbox" id="yarimpuan" name="yarimpuan" value="yarimpuan">
+<label for="yarimpuan">Ediyorum</label><br>
+<input type="checkbox" id="sifirpuan" name="sifirpuan" value="sifirpuan">
+<label for="sifirpuan">.</label><br><br>
+
+
+<label for ="sitesoru">Sitede geliştirmemi istediğiniz kısım var mı?</label><br>
+<input type="radio" id="onay" name="secenek" value="onay">
+<label for ="onay">Evet</label><br>
+<input type="radio" id="reddet" name="secenek" value="reddet">
+<label for ="reddet">Hayır</label><br><br>
+
+
+<textarea name="message" rows="10" cols="35"> Eğer cevabınız hayırsa buraya açıklama yazmanıza gerek yok. </textarea>
+
+<form action="/aciklamagonder.php" method ="get" >
+<input type="submit" value="Gönder">
+<input type="reset" value ="Sıfırla">
+</form>
+
+<! -- bu sitenin yapımında hiçbir şekilde yaratıcı ya da generative yapay zekadan yardım alınmamıştır. Tamamen şahsi notlarım ve kendi fikirlerimle tasarlanmıştır. Aksini iddia edenler için 2 saat 43 dakikalık ekran kaydı mevcuttur. -->
 </body>
 </html>
