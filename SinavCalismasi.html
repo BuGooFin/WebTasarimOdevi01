@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>HTML DERS NOTLARI</title
+</head>
+<body text = darkblue>
+<br><br>
+<p align = center> <font color = red size = 6>HTML DERS NOTLARI </font></p>
+<br>
+<p align = center> <font color = darkblue>Web Tasarım Dersi</font></p>
+<p align = center> <img src ="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='80'%3E%3Crect width='200' height='80' fill='%23336699'/%3E%3Ctext x='100' y='50' font-size='30' fill='white' text-anchor='middle'%3E%26lt;HTML%26gt;%3C/text%3E%3C/svg%3E"></p> </img><hr size = 5 width = 1200 color = red>
+<p><b><font size =6 color = "darkblue">1. Yazı Biçimlendirme</font></b><br>
+Yazılarda başlıklar h1den başlayıp h6 kadar giden taglar ile yapılır.Yazılan yazı otomatik kalın olur. Yazı büyüklükleri h'in yanındaki sayı arttıkça azalır. Başlık tagı kapatıldığında sonraki yazılanlar alt satıra geçer.<font color = red size = 4><b>(KESİN SORULUR!)</b></font><br>
+<h1> BAŞLIK h1 </h1>
+<h2> BAŞLIK h2 </h2>
+<h3> BAŞLIK h3 </h3>
+<h4> BAŞLIK h4 </h4>
+<h5> BAŞLIK h5 </h5>
+<h6> BAŞLIK h6 </h6>
+<br><hr size = 3 color = gray width = 1200 align = left><br>
+Kalın:<b>Kalın yazı</b> | İtalik:<i>İtalik yazı</i> | Altı çizgili:<u>Altı çizgili yazı</u><br><br>
+Bootstrap'lerde b yerine <strong>strong</strong>, i yerine <em>em</em> kullanılıyor.<br><br>
+Yazı büyüklüğü(1-7, varsayılan yazı büyüklüğü ise 3):<br>
+<font size = 1> size 1</font>
+<font size = 2> size 2</font>
+<font size = 3> size 3 varsayılan size</font>
+<font size = 4> size 4</font>
+<font size = 5> size 5</font>
+<font size = 6> size 6</font>
+<font size = 7> size 7</font><br>
+Yazı rengi:
+<font color = red>kırmızı</font>
+<font color = green>yeşil</font>
+<font color = blue>mavi</font><br>
+Yazı tipi:
+<font face = "arial">arial,</font>
+<font face = "courirer">courier,</font>
+<font face = "newyorktimes">times</font><br>
+br deyimi ile alt satıra inme:<br>
+Web<br>
+Tasarım<br>
+Dersi<br>
+<hr width = 300 size = 7 color = blue align = right><br>
+<h2>2. Paragraf Hizalama</h2>
+<p align = left>Sola hizalı paragraf</p>
+<p align = center>Ortalanmış paragraf</p>
+<p align = right>Sağa hizalı paragraf</p><br>
+İki yana yaslı paragraf. Html kodlamalarını mutlaka boş bir sayfa üzerinde gerçekleştirip tekrar tekrar yaz.<br>
+<h2>3.Listeler</h2>
+<h4>Sırasız liste</h4>
+<ul>
+<li>Fakülte</li>
+<li>Enstitü</li>
+<li>Yüksekokul</li>
+<li>Meslek Yüksekokulu</li>
+</ul><br>
+<h4> Sıralı Liste</h4>
+<ol>
+<li>Fakülte</li>
+<li>Enstitü</li>
+<li>Yüksekokul</li>
+<li>Meslek Yüksekokulu</li>
+</ol>
+<h4> Tanımlı Liste </h4>
+<dl>
+Tanım Listesini dl başlatır,
+<dt>Listenin her bir elemanını dt girer,
+<dd>Elmanın tanımınıda dd girer.
+</dd>
+</dt>
+</dl>
+<dl>
+<b>dl</b>
+<dt>
+<b>dt</b>
+<dd>
+<b>dd</b>
+</dd>
+</dt>
+</dl><br>
+<h2>4. Tablolar</h2>
+Tablo table tagı ile oluşturulur, tr ile satırlara, td ile sütunlara bölünür.
+<p><table border = 2 align = center>
+<tr><td>Hücre1</td><td>Hücre2</td></tr>
+<tr><td>Hücre3</td><td>Hücre4</td></tr>
+</table></p>
+<table border = 3 bgcolor = yellow bordercolor = darkblue rules = all cellspacing = 10 cellpadding = 10 width = 600>
+<tr><th bgcolor = orange>Özellik</th><th bgcolor = orange align = center >Açıklama</th></tr>
+<tr><td>border</td><td> Tablo çizgilerinin kalınlığını belirler.</td></tr>
+<tr><td>align</td><td align = center> Tablo ve hücredeki metni hizalar(left, right, center).</td></tr>
+<tr><td>bgcolor</td><td align = right> Arkaplan rengi(RGB, hexadecimal, renk adı).</td></tr>
+<tr><td>cellpadding</td><td>Metnin hücre duvarına olan boşluğu.</td></tr>
+<tr><td>cellspacing</td><td>Hücreler arası boşluk.</td></tr>
+<tr><td>frame</td><td>Dış çerçeve: void,above,below,hsides,Ihs,rhs,vsides,box,border.</td></tr>
+<tr><td>rules</td><td>İç çerçeve: none, groups, rows, cols, all.</td></tr>
+<tr><td>width</td><td>Tablo genişliği(piksel).</td><tr>
+</table>
+<h2>5. Form Elemanları</h2>
+Form elemanları kullanıcılardan bilgi girişne izin vermek için kullanılır.
+<table border = 1 bgcolor = lightyellow rules = all cellspacing = 10 cellpadding = 5  width = 480 ><form>
+<tr><td><label for = adsoyad>Adınız Soyadınız: </label></td><td><input type = text id = adsoyad name = adsoyad size = 40</label></tr></td>
+<tr><td><label for = sifre>Şifre:</label></td><td><input type = password id = sifre name = sifre size = 40</label></tr></td>
+<tr><td><label for = hobiler>Hobi</label></td><td>
+<select id = hobi name = hobi size = 3 multiple>
+<option value= Hobi_yok selected> Hobi Seçiniz</option>
+<option value = Basketbol>Basketbol</option>
+<option value = Futbol>Futbol</option>
+<option value = Hentbol>Hentbol</option>
+</select></tr></td>
+<tr><td><label for = sporlar>Spor(birden fazla):</label></td><td>
+<input type = checkbox id=Futbol name=Futbol value = Futbol>
+<label for = Futbol>Futbol</label><br>
+<input type = checkbox id =Hentbol name =Hentbol value=Hentbol>
+<label for = Hentbol>Hentbol</label><br>
+<input type = checkbox id = Baskbetbol name =Basketbol value=Basketbol>
+<label for = Basketbol>Basketbol</label></tr></td>
+<tr><td><label for = cinsiyet>Cinsiyet (tek seçim):</label></td><td>
+<input type = radio id =erkek name= cinsiyet value =erkek>
+<label for = erkek>Erkek</label><br>
+<input type =radio id=kadın name =cinsiyet value = kadın>
+<label for = kadın>Kadın</label></tr></td>
+<tr><td><label for = aciklama>Açıklamalar:</label></td><td>
+<textarea name = message rows = 10 cols = 35> Açıklama giriniz...</textarea></tr></td>
+</form>
+</table>
+<table border = 1 rules = none bgcolor = lightyellow cellspacing = 5 cellpadding = 5 width = 480>
+<tr><td>
+<center><form action = /kayit_ol.php method = get><input type = submit value = Kayıt ol></input>
+<input type = "reset" value = "Sıfırla"></input></form></center>
+</tr></td>
+</table>
+</body>
+</html>
